@@ -87,7 +87,6 @@ section {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 5vw;
   text-align: center;
 }
 
@@ -105,8 +104,9 @@ section {
   left: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  filter: blur(0.2rem) brightness(0.8);
+  object-fit: contain;
+  background: black;
+  filter: blur(0.15rem) brightness(0.8);
   z-index: 0;
 }
 
@@ -154,7 +154,7 @@ section {
   font-size: clamp(0.85rem, 1.8vw, 1rem);
   letter-spacing: 0.2em;
   text-transform: uppercase;
-  color: #fff7df;
+  color:goldenrod;
   text-shadow: 0 0 8px rgba(255, 251, 224, 0.6), 0 0 16px rgba(255, 225, 113, 0.35);
   margin-bottom: 0.5rem;
   font-weight: 700;
@@ -172,10 +172,10 @@ section {
   margin-bottom: 1.5rem;
   font-weight: 700;
   font-family: "Inter", "Segoe UI", Arial, sans-serif;
-  text-shadow: 0 0 4px rgba(0, 0, 0, 0.45);
+  /* text-shadow: 0 0 4px rgba(0, 0, 0, 0.45);
   background: linear-gradient(90deg, #f3d48d 0%, #ffffff 100%);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent; */
   background-clip: text;
 }
 
@@ -195,21 +195,19 @@ section {
   font-weight: 900;
   letter-spacing: -0.02em;
   text-transform: none;
+   padding: 0.1em 0.2em;
   transition: transform 0.25s ease, text-shadow 0.25s ease;
 }
 
-.hero-name-amritha {
-  color: #C9A24A; 
-  text-shadow: 0 0 8px rgba(255, 255, 255, 0.6);
-  font-family: "Georgia", Cambria, "Times New Roman", Times, serif;
-  letter-spacing: -0.02em;
-}
 
-.hero-name-yuvaraj {
-   color: #C9A24A; 
- text-shadow: 0 0 8px rgba(255, 255, 255, 0.6);
-  font-family: "Georgia", Cambria, "Times New Roman", Times, serif;
-  letter-spacing: -0.02em;
+.hero-name-amritha, .hero-name-yuvaraj {
+  background: linear-gradient(135deg, #f5e6b3, #d4af37, #b8962e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  text-shadow:
+    0 0 6px rgba(255, 223, 120, 0.5),
+    0 0 12px rgba(212, 175, 55, 0.35);
 }
 
 .hero-names .ampersand {
@@ -228,7 +226,7 @@ section {
 /* Date */
 .hero-date {
   font-size: clamp(1rem, 3vw, 2rem);
-  font-weight: 600;
+  font-weight: 700;
   color: #fff7df;
   text-shadow: 0 0 8px rgba(255, 251, 224, 0.6), 0 0 16px rgba(255, 225, 113, 0.35);
   margin-top: 1.8rem;
@@ -548,12 +546,13 @@ section {
 .presence-text {
   font-size: clamp(1.2rem, 2.5vw, 2rem);
   font-weight: 500;
-  color: var(--text-main);
+  color: goldenrod;
 }
 
 .venue-title {
   font-size: clamp(2rem, 8vw, 4rem);
   font-weight: 700;
+  color:gold;
   letter-spacing: -0.02em;
   margin-bottom: 1rem;
 }
@@ -895,9 +894,9 @@ section {
   transform: translateX(-50%);
   z-index: 10000;
   padding: 12px 40px;
-  background: transparent;
-  border: 1px solid rgba(201, 168, 76, 0.7);
-  color: #C9A84C;
+  background: var(--accent-gold);
+  /* border: 1px solid rgba(201, 168, 76, 0.7); */
+  color:white;
   font-family: 'Georgia', serif;
   font-size: 0.95rem;
   letter-spacing: 0.25em;
@@ -907,7 +906,7 @@ section {
 }
 
 .enter-btn:hover {
-  background: rgba(201, 168, 76, 0.1);
+  background: gold;
 }
 
 /* Split Gold Seal */

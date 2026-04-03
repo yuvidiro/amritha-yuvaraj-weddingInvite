@@ -17,8 +17,11 @@ export default function Hero() {
       </video>
 
       <div className="hero-content">
-        <div className="hero-subtag">Our parents said “It’s time.” so here we are.</div>
+        <div className ="hero-top">
+              <div className="hero-subtag">Our parents said “It’s time.” so here we are.</div>
         <div className="hero-tag">You're Invited</div>
+        </div>
+    
 
         <div className="hero-names">
           <span className="hero-name hero-name-amritha">Amritha</span>

@@ -30,7 +30,7 @@ export default function Hero() {
         </div>
 
         <div className="hero-date">
-          May <span className="day">2<sup>nd</sup></span>–<span className="day">3<sup>rd</sup></span>, 2026
+          May <span className="day">3<sup>rd</sup></span>, 2026
         </div>
       </div>
 

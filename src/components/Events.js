@@ -66,11 +66,10 @@ export default function Events() {
                         fontWeight: 500,
                       }}
                     >
-                      UPI also accepted 😉💸
+                     We are modern, UPI also accepted 😉💸.
                     </span>
                   </span>
-                </span>.
-                We are modern.
+                </span>
               </div>
             </div>
           </div>

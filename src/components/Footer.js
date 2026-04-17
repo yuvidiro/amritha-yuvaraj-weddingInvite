@@ -2,7 +2,7 @@ import { useState } from 'react';
 
 export default function Footer() {
   const [showRegister, setShowRegister] = useState(false);
-  const whatsappNumber = '917077109905'; // Change this to your actual WhatsApp number
+  const whatsappNumber = '917892415486'; // Change this to your actual WhatsApp number
   const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
     'Broooo I’m definitely coming! Save me food and a dance spot!!!'
   )}`;

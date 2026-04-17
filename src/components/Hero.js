@@ -1,4 +1,4 @@
-import {  useRef } from "react";
+import { useRef } from "react";
 
 export default function Hero() {
   const videoRef = useRef(null);
@@ -17,11 +17,11 @@ export default function Hero() {
       </video>
 
       <div className="hero-content">
-        <div className ="hero-top">
-              <div className="hero-subtag">Our parents said “It’s time.” so here we are.</div>
-        <div className="hero-tag">You're Invited</div>
+        <div className="hero-top">
+          <div className="hero-subtag">Our parents said “It’s time.” so here we are.</div>
+          <div className="hero-tag">You're Invited</div>
         </div>
-    
+
 
         <div className="hero-names">
           <span className="hero-name hero-name-amritha">Amritha</span>
@@ -29,7 +29,9 @@ export default function Hero() {
           <span className="hero-name hero-name-yuvaraj">Yuvaraj</span>
         </div>
 
-        <div className="hero-date">May 2nd–3rd, 2026</div>
+        <div className="hero-date">
+          May <span className="day">2<sup>nd</sup></span>–<span className="day">3<sup>rd</sup></span>, 2026
+        </div>
       </div>
 
       <div className="scroll-indicator">
